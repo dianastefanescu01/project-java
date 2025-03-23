@@ -1,0 +1,186 @@
+18 Mar 2025 08:22:35,271 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {}
+18 Mar 2025 08:22:35,277 INFO  org.example.utils.JdbcUtils 28 getNewConnection - trying to connect to database ... null
+18 Mar 2025 08:22:35,277 ERROR org.example.utils.JdbcUtils 34 getNewConnection - java.sql.SQLException: The url cannot be null
+18 Mar 2025 08:42:50,486 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db}
+18 Mar 2025 08:42:50,486 INFO  org.example.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:swimming.db
+18 Mar 2025 08:42:52,715 ERROR org.example.repository.ParticipantRepository 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 08:42:52,718 ERROR org.example.repository.ParticipantRepository 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 08:45:06,314 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db}
+18 Mar 2025 08:45:06,330 INFO  org.example.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:swimming.db
+18 Mar 2025 08:45:06,544 ERROR org.example.repository.ParticipantRepository 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 08:45:06,544 ERROR org.example.repository.ParticipantRepository 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 08:46:41,220 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db}
+18 Mar 2025 08:46:41,225 INFO  org.example.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:swimming.db
+18 Mar 2025 08:46:41,451 ERROR org.example.repository.ParticipantRepository 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 08:46:41,452 ERROR org.example.repository.ParticipantRepository 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 08:50:37,392 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db}
+18 Mar 2025 08:50:37,398 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:swimming.db
+18 Mar 2025 08:50:38,186 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+18 Mar 2025 08:50:38,192 ERROR org.example.repository.ParticipantRepository 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 08:50:38,193 ERROR org.example.repository.ParticipantRepository 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 08:53:00,711 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PAswimming.db}
+18 Mar 2025 08:53:00,715 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PAswimming.db
+18 Mar 2025 08:53:00,931 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+18 Mar 2025 08:53:00,937 ERROR org.example.repository.ParticipantRepository 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 08:53:00,938 ERROR org.example.repository.ParticipantRepository 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 08:54:20,294 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PAswimming.db}
+18 Mar 2025 08:54:20,299 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PAswimming.db
+18 Mar 2025 08:54:20,498 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+18 Mar 2025 08:54:20,503 ERROR org.example.repository.ParticipantRepository 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 08:54:20,504 ERROR org.example.repository.ParticipantRepository 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 09:02:04,725 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PAswimming.db}
+18 Mar 2025 09:02:04,739 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PAswimming.db
+18 Mar 2025 09:02:05,631 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+18 Mar 2025 09:02:05,636 ERROR org.example.repository.ParticipantRepository 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 09:02:05,637 ERROR org.example.repository.ParticipantRepository 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 09:08:31,765 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PAswimming.db}
+18 Mar 2025 09:08:31,770 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PAswimming.db
+18 Mar 2025 09:08:32,050 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+18 Mar 2025 09:08:32,055 ERROR org.example.repository.ParticipantRepository 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 09:08:32,056 ERROR org.example.repository.ParticipantRepository 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 09:22:25,294 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db}
+18 Mar 2025 09:22:25,301 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db
+18 Mar 2025 09:22:25,582 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+18 Mar 2025 09:22:25,583 ERROR org.example.repository.ParticipantRepository 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 09:22:25,588 ERROR org.example.repository.ParticipantRepository 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 09:26:59,026 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db}
+18 Mar 2025 09:26:59,026 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db
+18 Mar 2025 09:26:59,267 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+18 Mar 2025 09:26:59,283 ERROR org.example.repository.ParticipantRepository 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 09:26:59,283 ERROR org.example.repository.ParticipantRepository 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 09:28:19,564 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db}
+18 Mar 2025 09:28:19,568 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db
+18 Mar 2025 09:28:19,758 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+18 Mar 2025 09:28:19,762 ERROR org.example.repository.ParticipantRepository 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 09:28:19,763 ERROR org.example.repository.ParticipantRepository 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 09:29:19,098 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db}
+18 Mar 2025 09:29:19,101 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db
+18 Mar 2025 09:29:19,279 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+18 Mar 2025 09:29:19,285 ERROR org.example.repository.ParticipantRepository 112 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 09:29:19,286 ERROR org.example.repository.ParticipantRepository 81 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+18 Mar 2025 09:32:03,513 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db}
+18 Mar 2025 09:32:03,519 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db
+18 Mar 2025 09:32:04,415 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+18 Mar 2025 09:34:53,899 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db}
+18 Mar 2025 09:34:53,904 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db
+18 Mar 2025 09:34:54,640 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+18 Mar 2025 09:38:41,404 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db}
+18 Mar 2025 09:38:41,407 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db
+18 Mar 2025 09:38:42,139 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+18 Mar 2025 09:41:32,577 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db}
+18 Mar 2025 09:41:32,583 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db
+18 Mar 2025 09:41:32,800 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+18 Mar 2025 09:51:35,009 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db}
+18 Mar 2025 09:51:35,015 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db
+18 Mar 2025 09:51:36,086 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+20 Mar 2025 15:20:23,916 INFO  org.example.repository.ParticipantRepository 17 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db}
+20 Mar 2025 15:20:23,919 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db
+20 Mar 2025 15:20:24,186 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+20 Mar 2025 15:20:24,192 ERROR org.example.repository.ParticipantRepository 116 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Participants has no column named user_id)
+20 Mar 2025 15:20:24,195 ERROR org.example.repository.ParticipantRepository 84 findAll - java.sql.SQLException: no such column: 'user_id'
+20 Mar 2025 15:35:59,173 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db}
+20 Mar 2025 15:35:59,178 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db} 
+20 Mar 2025 15:35:59,178 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db
+20 Mar 2025 15:35:59,739 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+20 Mar 2025 15:35:59,744 ERROR org.example.repository.ParticipantRepository 122 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Participants has no column named user_id)
+20 Mar 2025 15:35:59,747 ERROR org.example.repository.ParticipantRepository 90 findAll - java.sql.SQLException: no such column: 'user_id'
+20 Mar 2025 15:41:54,187 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db}
+20 Mar 2025 15:41:54,191 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db} 
+20 Mar 2025 15:41:54,192 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db
+20 Mar 2025 15:41:54,364 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+20 Mar 2025 15:41:54,370 ERROR org.example.repository.ParticipantRepository 122 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Participants has no column named user_id)
+20 Mar 2025 15:41:54,375 ERROR org.example.repository.ParticipantRepository 90 findAll - java.sql.SQLException: no such column: 'user_id'
+20 Mar 2025 15:50:52,977 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db}
+20 Mar 2025 15:50:52,984 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db} 
+20 Mar 2025 15:50:52,984 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:swimming.db
+20 Mar 2025 15:50:54,079 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+20 Mar 2025 15:50:54,085 ERROR org.example.repository.ParticipantRepository 122 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Participants has no column named user_id)
+20 Mar 2025 15:50:54,088 ERROR org.example.repository.ParticipantRepository 90 findAll - java.sql.SQLException: no such column: 'user_id'
+23 Mar 2025 12:50:43,642 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db}
+23 Mar 2025 12:50:43,678 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db} 
+23 Mar 2025 12:50:43,679 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:swimming.db
+23 Mar 2025 12:50:43,959 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+23 Mar 2025 12:50:43,964 ERROR org.example.repository.ParticipantRepository 122 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Participants has no column named user_id)
+23 Mar 2025 12:50:43,966 ERROR org.example.repository.ParticipantRepository 90 findAll - java.sql.SQLException: no such column: 'user_id'
+23 Mar 2025 12:55:56,282 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db}
+23 Mar 2025 12:55:56,290 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db} 
+23 Mar 2025 12:56:20,476 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db}
+23 Mar 2025 12:56:20,480 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db} 
+23 Mar 2025 12:56:44,097 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db}
+23 Mar 2025 12:56:44,104 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db} 
+23 Mar 2025 13:32:56,988 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db}
+23 Mar 2025 13:32:56,993 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:swimming.db} 
+23 Mar 2025 13:32:56,994 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:swimming.db
+23 Mar 2025 13:32:57,819 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+23 Mar 2025 13:32:57,827 ERROR org.example.repository.ParticipantRepository 122 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Participants has no column named user_id)
+23 Mar 2025 13:32:57,831 ERROR org.example.repository.ParticipantRepository 90 findAll - java.sql.SQLException: no such column: 'user_id'
+23 Mar 2025 13:45:37,064 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db}
+23 Mar 2025 13:45:37,071 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db} 
+23 Mar 2025 13:45:37,072 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db
+23 Mar 2025 13:45:37,569 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+23 Mar 2025 13:46:38,173 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db}
+23 Mar 2025 13:46:38,179 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db} 
+23 Mar 2025 13:46:38,180 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db
+23 Mar 2025 13:46:38,406 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+23 Mar 2025 13:46:38,411 ERROR org.example.repository.ParticipantRepository 122 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 13:46:38,411 ERROR org.example.repository.ParticipantRepository 90 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 13:48:05,863 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db}
+23 Mar 2025 13:48:05,867 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db} 
+23 Mar 2025 13:48:05,869 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db
+23 Mar 2025 13:48:06,051 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+23 Mar 2025 13:48:16,202 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db}
+23 Mar 2025 13:48:16,207 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db} 
+23 Mar 2025 13:48:16,208 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db
+23 Mar 2025 13:48:16,394 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+23 Mar 2025 13:48:16,403 ERROR org.example.repository.ParticipantRepository 122 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 13:48:16,405 ERROR org.example.repository.ParticipantRepository 90 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 13:49:00,062 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db}
+23 Mar 2025 13:49:00,067 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db} 
+23 Mar 2025 13:49:00,067 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db
+23 Mar 2025 13:49:00,230 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+23 Mar 2025 13:49:00,236 ERROR org.example.repository.ParticipantRepository 122 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 13:49:00,236 ERROR org.example.repository.ParticipantRepository 90 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 13:49:55,049 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db}
+23 Mar 2025 13:49:55,054 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db} 
+23 Mar 2025 13:49:55,055 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db
+23 Mar 2025 13:49:55,247 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+23 Mar 2025 13:49:55,253 ERROR org.example.repository.ParticipantRepository 122 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 13:49:55,255 ERROR org.example.repository.ParticipantRepository 90 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 13:52:01,613 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db}
+23 Mar 2025 13:52:01,618 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db} 
+23 Mar 2025 13:52:01,619 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db
+23 Mar 2025 13:52:01,811 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+23 Mar 2025 13:52:01,816 ERROR org.example.repository.ParticipantRepository 122 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 13:52:01,817 ERROR org.example.repository.ParticipantRepository 90 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 13:54:20,503 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db}
+23 Mar 2025 13:54:20,508 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db} 
+23 Mar 2025 13:54:20,509 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db
+23 Mar 2025 13:54:20,686 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+23 Mar 2025 13:54:20,691 ERROR org.example.repository.ParticipantRepository 122 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 13:54:20,693 ERROR org.example.repository.ParticipantRepository 90 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 13:56:28,305 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:\sem4\project PA\SwimmingApplication\swimming.db}
+23 Mar 2025 13:56:28,311 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\sem4\project PA\SwimmingApplication\swimming.db} 
+23 Mar 2025 13:56:28,312 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:\sem4\project PA\SwimmingApplication\swimming.db
+23 Mar 2025 13:56:28,541 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+23 Mar 2025 14:05:56,627 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db}
+23 Mar 2025 14:05:56,632 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db} 
+23 Mar 2025 14:05:56,633 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db
+23 Mar 2025 14:05:57,521 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+23 Mar 2025 14:05:57,527 ERROR org.example.repository.ParticipantRepository 122 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 14:05:57,528 ERROR org.example.repository.ParticipantRepository 90 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 14:11:25,615 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db}
+23 Mar 2025 14:11:25,624 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db} 
+23 Mar 2025 14:11:25,625 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:sem4project PASwimmingApplicationswimming.db
+23 Mar 2025 14:11:26,776 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+23 Mar 2025 14:11:26,786 ERROR org.example.repository.ParticipantRepository 119 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 14:11:26,788 ERROR org.example.repository.ParticipantRepository 87 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Participants)
+23 Mar 2025 14:13:27,733 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db, jdbc.driver=org.sqlite.JDBC}
+23 Mar 2025 14:13:27,739 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db, jdbc.driver=org.sqlite.JDBC} 
+23 Mar 2025 14:13:27,740 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db
+23 Mar 2025 14:13:27,929 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.
+23 Mar 2025 14:14:13,348 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db, jdbc.driver=org.sqlite.JDBC}
+23 Mar 2025 14:14:13,353 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db, jdbc.driver=org.sqlite.JDBC} 
+23 Mar 2025 14:14:37,807 INFO  org.example.repository.ParticipantRepository 19 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db, jdbc.driver=org.sqlite.JDBC}
+23 Mar 2025 14:14:37,813 INFO  org.example.repository.UserRepository 19 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db, jdbc.driver=org.sqlite.JDBC} 
+23 Mar 2025 14:14:37,816 INFO  org.example.utils.JdbcUtils 68 getNewConnection - Trying to connect to database: jdbc:sqlite:D:/sem4/project PA/SwimmingApplication/swimming.db
+23 Mar 2025 14:14:38,036 INFO  org.example.utils.JdbcUtils 72 getNewConnection - Database connection established successfully.

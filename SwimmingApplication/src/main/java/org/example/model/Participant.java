@@ -4,13 +4,13 @@ import java.util.List;
 
 public class Participant extends Entity<Integer>{
     private String name;
-    private List<Race> raceList;
     private int age;
+    private int userId;
 
-    public Participant(String name, List<Race> races, int age){
+    public Participant(String name, int age, int userId){
         this.name = name;
-        this.raceList = races;
         this.age = age;
+        this.userId = userId;
     }
 
     public String getName(){
@@ -21,14 +21,6 @@ public class Participant extends Entity<Integer>{
         this.name = name;
     }
 
-    public List<Race> getRaceList(){
-        return raceList;
-    }
-
-    public void setRaceList(List<Race> races){
-        this.raceList = races;
-    }
-
     public int getAge(){
         return age;
     }
@@ -37,7 +29,15 @@ public class Participant extends Entity<Integer>{
         this.age = age;
     }
 
+    public int getUserId(){
+        return this.userId;
+    }
+
+    public void setUserId(int userId){
+        this.userId = userId;
+    }
+
     public String toString(){
-        return getID().toString() + ',' + name.toString() + ',' + age + ',' + raceList.toString();
+        return name.toString() + ',' + age + ',' + userId;
     }
 }

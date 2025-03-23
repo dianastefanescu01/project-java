@@ -1,11 +1,11 @@
 package org.example.model;
 
-public class Office extends Entity<Integer>{
+public class User extends Entity<Integer>{
     private String name;
     private String email;
     private String password;
 
-    public Office(String name, String email, String password){
+    public User(String name, String email, String password){
         this.name = name;
         this.email = email;
         this.password = password;
@@ -36,6 +36,6 @@ public class Office extends Entity<Integer>{
     }
 
     public String toString(){
-        return getID().toString() + ',' + name.toString() + ',' + email.toString() + ',' + password.toString();
+        return name.toString() + ',' + email.toString() + ',' + password.toString();
     }
 }

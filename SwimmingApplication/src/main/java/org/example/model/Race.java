@@ -37,6 +37,6 @@ public class Race extends Entity<Integer> {
     }
 
     public String toString() {
-        return getID().toString() + ',' + distance + ',' + style.toString() + ',' + nrOfParticipants;
+        return distance + ',' + style.toString() + ',' + nrOfParticipants;
     }
 }

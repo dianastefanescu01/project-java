@@ -1,12 +1,14 @@
 package org.example.repository;
 
-import java.util.Collection;
+import org.example.model.Entity;
 
-public interface IRepository<T, Tid> {
-    void add(T elem);
-    void delete(T elem);
-    void update(T elem, Tid id);
-    T findById(Tid id);
-    Iterable<T> findAll();
-    Collection<T> getAll();
+import java.util.Collection;
+import java.util.Optional;
+
+public interface IRepository<ID,E extends Entity<ID>> {
+    Optional<E> find(ID id);
+    Iterable<E> findAll();
+    Optional<E> save(E entity);
+    Optional<E> delete(ID id);
+    Optional<E> update(E entity);
 }
