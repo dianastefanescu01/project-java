@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SwimmingApplication" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/SwimmingApplication" />
+            <option value="$PROJECT_DIR$/SwimmingApplication/ChatAppFX" />
+            <option value="$PROJECT_DIR$/SwimmingApplication/ChatClient" />
+            <option value="$PROJECT_DIR$/SwimmingApplication/ChatModel" />
+            <option value="$PROJECT_DIR$/SwimmingApplication/ChatNetworking" />
+            <option value="$PROJECT_DIR$/SwimmingApplication/ChatPersistence" />
+            <option value="$PROJECT_DIR$/SwimmingApplication/ChatServer" />
+            <option value="$PROJECT_DIR$/SwimmingApplication/ChatService" />
+            <option value="$PROJECT_DIR$/SwimmingApplication/GrpcClient" />
+            <option value="$PROJECT_DIR$/SwimmingApplication/RestClient" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.GrpcMainCtrl">
+    <VBox spacing="10">
+        <Label alignment="CENTER" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="🏊‍♂️ Swimming Application" />
+
+        <HBox alignment="CENTER" spacing="20">
+            <!-- Participants Table -->
+            <VBox>
+                <Label text="Participants table:" />
+                <TableView fx:id="tableParticipant" prefWidth="300">
+                    <columns>
+                        <TableColumn fx:id="columnIdParticipant" prefWidth="64.99998474121094" text="ID" />
+                        <TableColumn fx:id="columnNameParticipant" prefWidth="135.80001831054688" text="Name" />
+                        <TableColumn fx:id="columnAgeParticipant" prefWidth="99.39999389648438" text="Age" />
+                    </columns>
+                </TableView>
+            </VBox>
+
+            <!-- Races Table -->
+            <VBox>
+                <Label text="Races table:" />
+                <TableView fx:id="tableRace" prefWidth="300">
+                    <columns>
+                        <TableColumn fx:id="columnIdRace" text="ID" />
+                        <TableColumn fx:id="columnDistanceRace" prefWidth="109.0" text="Distance" />
+                        <TableColumn fx:id="columnStyleRace" prefWidth="111.00001525878906" text="Style" />
+                    </columns>
+                </TableView>
+            </VBox>
+        </HBox>
+
+        <!-- Registration Table -->
+        <VBox>
+            <Label text="Registration table:" />
+            <TableView fx:id="tableRegistration" prefHeight="221.0" prefWidth="623.0">
+                <columns>
+                    <TableColumn fx:id="columnRegParticipant" prefWidth="206.79998475313187" text="Participant" />
+                    <TableColumn fx:id="columnRegStyle" prefWidth="212.2000274658203" text="Style" />
+                    <TableColumn fx:id="columnRegDistance" prefWidth="203.79998779296875" text="Distance" />
+                </columns>
+            </TableView>
+        </VBox>
+
+        <!-- Form Fields -->
+        <HBox spacing="10">
+            <TextField fx:id="textFieldParticipant" prefWidth="200" promptText="Selected Participant" />
+            <TextField fx:id="textFieldStyle" prefWidth="200" promptText="Selected Style" />
+            <TextField fx:id="textFieldDistance" prefWidth="200" promptText="Selected Distance" />
+        </HBox>
+
+        <!-- Buttons -->
+        <HBox spacing="20">
+            <Button fx:id="buttonAdd" onAction="#handleAddRegistration" text="➕ Add Registration" />
+            <Button fx:id="buttonLogOut" onAction="#handleLogOut" text="🚪 Log Out" />
+        </HBox>
+    </VBox>
+
+</AnchorPane>

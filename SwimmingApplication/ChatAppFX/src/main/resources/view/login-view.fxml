@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="413.0" prefWidth="336.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.LogInController">
+    <children>
+        <VBox alignment="CENTER" prefHeight="414.0" prefWidth="336.0" style="-fx-background-color: #6c6ef8;">
+            <children>
+                <Label prefHeight="46.0" prefWidth="75.0" text="Log in">
+                    <font>
+                        <Font size="24.0" />
+                    </font></Label>
+                <VBox alignment="CENTER" prefWidth="100.0" spacing="10.0">
+                    <children>
+                        <TextField fx:id="textFieldEmail" prefHeight="52.0" prefWidth="336.0" promptText="Email" style="-fx-background-color: #6cf0f8;" />
+                        <PasswordField fx:id="textFieldPassword" prefHeight="51.0" prefWidth="336.0" promptText="Password" style="-fx-background-color: #6cf0f8;" />
+                        <Button fx:id="loginBtn" mnemonicParsing="false" onAction="#login" prefHeight="52.0" prefWidth="130.0" style="-fx-background-color: #6cf0f8;" text="Login">
+                            <font>
+                                <Font size="18.0" />
+                            </font></Button>
+                        <Button fx:id="registerBtn" mnemonicParsing="false" onAction="#register" prefHeight="54.0" prefWidth="130.0" style="-fx-background-color: #6cf0f8;" text="Register">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Button>
+                    </children></VBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":GrpcClient:test" external.linked.project.path="$MODULE_DIR$/../../../SwimmingApplication/GrpcClient" external.root.project.path="$MODULE_DIR$/../../../SwimmingApplication" external.system.id="GRADLE" external.system.module.group="swimming" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output-test url="file://$MODULE_DIR$/../../../SwimmingApplication/GrpcClient/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../SwimmingApplication/GrpcClient/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../SwimmingApplication/GrpcClient/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../SwimmingApplication/GrpcClient/src/test/resources" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../SwimmingApplication/GrpcClient/build/generated/source/proto/test/grpc">
+      <sourceFolder url="file://$MODULE_DIR$/../../../SwimmingApplication/GrpcClient/build/generated/source/proto/test/grpc" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../SwimmingApplication/GrpcClient/build/generated/source/proto/test/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../../SwimmingApplication/GrpcClient/build/generated/source/proto/test/java" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="SwimmingApplication.GrpcClient.main" />
+    <orderEntry type="module" module-name="SwimmingApplication.ChatService.main" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-netty-shaded:1.61.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-protobuf:1.61.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-stub:1.61.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.25.3" level="project" />
+    <orderEntry type="library" name="Gradle: javax.annotation:javax.annotation-api:1.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-core:2.23.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.23.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-fxml:win:23.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-controls:23.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-controls:win:23.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-graphics:23.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-graphics:win:23.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-base:23.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjfx:javafx-base:win:23.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter:5.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-core:1.61.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.api.grpc:proto-google-common-protos:2.29.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-api:1.61.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:32.1.3-android" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-params:5.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.23.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Gradle: org.checkerframework:checker-qual:3.37.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.j2objc:j2objc-annotations:2.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apiguardian:apiguardian-api:1.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.opentest4j:opentest4j:1.3.0" level="project" />
+    <orderEntry type="module" module-name="SwimmingApplication.ChatPersistence.main" scope="RUNTIME" />
+    <orderEntry type="module" module-name="SwimmingApplication.ChatModel.main" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.perfmark:perfmark-api:0.26.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.grpc:grpc-protobuf-lite:1.61.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.10.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.xerial:sqlite-jdbc:3.49.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.hibernate.orm:hibernate-core:6.4.4.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: jakarta.persistence:jakarta.persistence-api:3.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.grpc:grpc-util:1.61.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.grpc:grpc-context:1.61.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.code.gson:gson:2.10.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.android:annotations:4.1.1.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.23" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.10.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.hibernate.orm:hibernate-community-dialects:6.4.4.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: jakarta.transaction:jakarta.transaction-api:2.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jboss.logging:jboss-logging:3.5.0.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.hibernate.common:hibernate-commons-annotations:6.0.6.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.smallrye:jandex:3.1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml:classmate:1.5.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.bytebuddy:byte-buddy:1.14.11" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.jaxb:jaxb-runtime:4.0.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: jakarta.xml.bind:jakarta.xml.bind-api:4.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: jakarta.inject:jakarta.inject-api:2.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.antlr:antlr4-runtime:4.13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.jaxb:jaxb-core:4.0.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: jakarta.activation:jakarta.activation-api:2.1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.eclipse.angus:angus-activation:2.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.jaxb:txw2:4.0.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.istack:istack-commons-runtime:4.1.1" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="SwimmingApplication.GrpcClient.main" />
+</module>

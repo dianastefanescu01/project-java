@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="SwimmingApplication" target="23" />
+      <module name="SwimmingApplication.ChatAppFX" target="23" />
+      <module name="SwimmingApplication.ChatAppFX.main" target="23" />
+      <module name="SwimmingApplication.ChatAppFX.test" target="23" />
+      <module name="SwimmingApplication.ChatClient" target="23" />
+      <module name="SwimmingApplication.ChatClient.main" target="23" />
+      <module name="SwimmingApplication.ChatClient.test" target="23" />
+      <module name="SwimmingApplication.ChatModel" target="23" />
+      <module name="SwimmingApplication.ChatModel.main" target="23" />
+      <module name="SwimmingApplication.ChatModel.test" target="23" />
+      <module name="SwimmingApplication.ChatNetworking" target="23" />
+      <module name="SwimmingApplication.ChatNetworking.main" target="23" />
+      <module name="SwimmingApplication.ChatNetworking.test" target="23" />
+      <module name="SwimmingApplication.ChatPersistence" target="23" />
+      <module name="SwimmingApplication.ChatPersistence.main" target="23" />
+      <module name="SwimmingApplication.ChatPersistence.test" target="23" />
+      <module name="SwimmingApplication.ChatServer" target="23" />
+      <module name="SwimmingApplication.ChatServer.main" target="23" />
+      <module name="SwimmingApplication.ChatServer.test" target="23" />
+      <module name="SwimmingApplication.ChatService" target="23" />
+      <module name="SwimmingApplication.ChatService.main" target="23" />
+      <module name="SwimmingApplication.ChatService.test" target="23" />
+      <module name="SwimmingApplication.GrpcClient" target="23" />
+      <module name="SwimmingApplication.GrpcClient.main" target="23" />
+      <module name="SwimmingApplication.GrpcClient.test" target="23" />
+      <module name="SwimmingApplication.main" target="23" />
+      <module name="SwimmingApplication.RestClient" target="23" />
+      <module name="SwimmingApplication.RestClient.main" target="23" />
+      <module name="SwimmingApplication.RestClient.test" target="23" />
+      <module name="SwimmingApplication.test" target="23" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

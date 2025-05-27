@@ -1,0 +1,55 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "23.0.1"
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    implementation 'org.openjfx:javafx-controls:23.0.1'
+    implementation 'org.openjfx:javafx-fxml:23.0.1'
+    implementation 'org.openjfx:javafx-base:23.0.1'
+    implementation 'org.openjfx:javafx-graphics:23.0.1'
+
+    runtimeOnly 'org.openjfx:javafx-controls:23.0.1:win'
+    runtimeOnly 'org.openjfx:javafx-fxml:23.0.1:win'
+    runtimeOnly 'org.openjfx:javafx-base:23.0.1:win'
+    runtimeOnly 'org.openjfx:javafx-graphics:23.0.1:win'
+
+    runtimeOnly 'org.xerial:sqlite-jdbc:3.49.1.0'
+
+    implementation 'org.apache.logging.log4j:log4j-core:2.23.1'
+    implementation 'org.apache.logging.log4j:log4j-api:2.23.1'
+}
+
+application{
+    mainClass = 'org.example.MainFX'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'org.example.MainFX'
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}

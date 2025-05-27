@@ -1,0 +1,100 @@
+syntax = "proto3";
+
+option java_package = "swimming";
+option java_outer_classname = "SwimmingProto";
+
+package swimming;
+
+// === Messages ===
+
+message User {
+  int32 id = 1;
+  string name = 2;
+  string email = 3;
+  string password = 4;
+}
+
+message Race {
+  int32 id = 1;
+  string style = 2;
+  int32 distance = 3;
+  int32 nrOfParticipants = 4;
+}
+
+message Participant {
+  int32 id = 1;
+  string name = 2;
+  int32 age = 3;
+  int32 userId = 4;
+}
+
+message ParticipantRace {
+  int32 id = 1;
+  Participant participant = 2;
+  Race race = 3;
+}
+
+// === Requests and Responses ===
+
+message LoginRequest {
+  string email = 1;
+  string password = 2;
+}
+
+message UserResponse {
+  User user = 1;
+  string error = 2;
+}
+
+message RaceList {
+  repeated Race races = 1;
+}
+
+message ParticipantList {
+  repeated Participant participants = 1;
+}
+
+message RegistrationList {
+  repeated ParticipantRace registrations = 1;
+}
+
+message LoggedUsers {
+  repeated User users = 1;
+}
+
+message LogoutRequest {
+  int32 id = 1;
+  string name = 2;
+  string email = 3;
+  string password = 4;
+}
+
+message LogoutResponse {
+  bool success = 1;
+  string error = 2;
+}
+
+message ParticipantByIdRequest {
+  int32 id = 1;
+}
+
+message RaceByIdRequest {
+  int32 id = 1;
+}
+
+message Empty {} // For no-argument RPCs
+
+// === Service Definition ===
+
+service SwimmingService {
+  rpc Login(LoginRequest) returns (UserResponse);
+  rpc Logout(LogoutRequest) returns (LogoutResponse);
+  rpc GetAllRaces(Empty) returns (RaceList);
+  rpc GetAllParticipants(Empty) returns (ParticipantList);
+  rpc GetAllRegistrations(Empty) returns (RegistrationList);
+  rpc AddRegistration (ParticipantRace) returns (Empty);
+  rpc GetParticipantById (ParticipantByIdRequest) returns (Participant);
+  rpc GetRaceById (RaceByIdRequest) returns (Race);
+  rpc GetLoggedUsers (Empty) returns (LoggedUsers);
+  rpc AddUser (User) returns (UserResponse);
+}

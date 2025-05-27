@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="515.0" prefWidth="406.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.GrpcRegisterCtrl">
+    <children>
+        <VBox alignment="CENTER" prefHeight="515.0" prefWidth="406.0" spacing="15.0" style="-fx-background-color: #6c6ef8;">
+            <children>
+                <Label prefHeight="54.0" prefWidth="185.0" text="User Registration">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="username" prefHeight="67.0" prefWidth="406.0" promptText="Username" style="-fx-background-color: #6cf0f8;" />
+                <TextField fx:id="email" prefHeight="62.0" prefWidth="406.0" promptText="Email" style="-fx-background-color: #6cf0f8;" />
+                <TextField fx:id="password" prefHeight="62.0" prefWidth="406.0" promptText="Password" style="-fx-background-color: #6cf0f8;" />
+                <TextField fx:id="confirmPassword" prefHeight="65.0" prefWidth="406.0" promptText="Confirm Password" style="-fx-background-color: #6cf0f8;" />
+                <Button fx:id="registerBtn" mnemonicParsing="false" onAction="#register" prefHeight="67.0" prefWidth="112.0" style="-fx-background-color: #6cf0f8;" text="Register">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children></VBox>
+    </children>
+</AnchorPane>

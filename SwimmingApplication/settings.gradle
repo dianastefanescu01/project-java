@@ -1,0 +1,11 @@
+rootProject.name = 'SwimmingApplication'
+include 'ChatModel'
+include 'ChatPersistence'
+include 'ChatService'
+include 'ChatNetworking'
+include 'ChatServer'
+include 'ChatClient'
+include 'ChatAppFX'
+include 'GrpcClient'
+include 'RestClient'
+

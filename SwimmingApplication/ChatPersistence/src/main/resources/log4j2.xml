@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d{HH:mm:ss}] [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <!-- File Appender -->
+        <File name="FileLogger" fileName="logs/persistence.log" append="true">
+            <PatternLayout>
+                <pattern>[%d{yyyy-MM-dd HH:mm:ss}] [%t] %-5level %logger{36} - %msg%n</pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <!-- Hibernate logging -->
+        <Logger name="org.hibernate" level="warn" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+
+        <!-- Project packages -->
+        <Logger name="org.example" level="debug" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+        </Logger>
+
+        <!-- Root logger -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+        </Root>
+    </Loggers>
+</Configuration>

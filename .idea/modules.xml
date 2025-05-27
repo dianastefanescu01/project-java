@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SwimmingApplication.iml" filepath="$PROJECT_DIR$/SwimmingApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatAppFX/SwimmingApplication.ChatAppFX.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatAppFX/SwimmingApplication.ChatAppFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatAppFX/SwimmingApplication.ChatAppFX.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatAppFX/SwimmingApplication.ChatAppFX.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatAppFX/SwimmingApplication.ChatAppFX.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatAppFX/SwimmingApplication.ChatAppFX.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatClient/SwimmingApplication.ChatClient.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatClient/SwimmingApplication.ChatClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatClient/SwimmingApplication.ChatClient.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatClient/SwimmingApplication.ChatClient.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatClient/SwimmingApplication.ChatClient.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatClient/SwimmingApplication.ChatClient.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatModel/SwimmingApplication.ChatModel.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatModel/SwimmingApplication.ChatModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatModel/SwimmingApplication.ChatModel.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatModel/SwimmingApplication.ChatModel.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatModel/SwimmingApplication.ChatModel.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatModel/SwimmingApplication.ChatModel.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatNetworking/SwimmingApplication.ChatNetworking.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatNetworking/SwimmingApplication.ChatNetworking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatNetworking/SwimmingApplication.ChatNetworking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatNetworking/SwimmingApplication.ChatNetworking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatNetworking/SwimmingApplication.ChatNetworking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatNetworking/SwimmingApplication.ChatNetworking.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatPersistence/SwimmingApplication.ChatPersistence.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatPersistence/SwimmingApplication.ChatPersistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatPersistence/SwimmingApplication.ChatPersistence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatPersistence/SwimmingApplication.ChatPersistence.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatPersistence/SwimmingApplication.ChatPersistence.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatPersistence/SwimmingApplication.ChatPersistence.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServer/SwimmingApplication.ChatServer.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServer/SwimmingApplication.ChatServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServer/SwimmingApplication.ChatServer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServer/SwimmingApplication.ChatServer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServer/SwimmingApplication.ChatServer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServer/SwimmingApplication.ChatServer.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatService/SwimmingApplication.ChatService.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatService/SwimmingApplication.ChatService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatService/SwimmingApplication.ChatService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatService/SwimmingApplication.ChatService.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatService/SwimmingApplication.ChatService.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatService/SwimmingApplication.ChatService.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GrpcClient/SwimmingApplication.GrpcClient.iml" filepath="$PROJECT_DIR$/.idea/modules/GrpcClient/SwimmingApplication.GrpcClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GrpcClient/SwimmingApplication.GrpcClient.main.iml" filepath="$PROJECT_DIR$/.idea/modules/GrpcClient/SwimmingApplication.GrpcClient.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GrpcClient/SwimmingApplication.GrpcClient.test.iml" filepath="$PROJECT_DIR$/.idea/modules/GrpcClient/SwimmingApplication.GrpcClient.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RestClient/SwimmingApplication.RestClient.iml" filepath="$PROJECT_DIR$/.idea/modules/RestClient/SwimmingApplication.RestClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RestClient/SwimmingApplication.RestClient.main.iml" filepath="$PROJECT_DIR$/.idea/modules/RestClient/SwimmingApplication.RestClient.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RestClient/SwimmingApplication.RestClient.test.iml" filepath="$PROJECT_DIR$/.idea/modules/RestClient/SwimmingApplication.RestClient.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SwimmingApplication.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SwimmingApplication.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SwimmingApplication.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SwimmingApplication.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/project PA.iml" filepath="$PROJECT_DIR$/.idea/project PA.iml" />
+    </modules>
+  </component>
+</project>

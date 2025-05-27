@@ -1,0 +1,3 @@
+**/build
+**/out
+/target/app.log

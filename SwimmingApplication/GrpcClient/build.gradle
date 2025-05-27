@@ -1,0 +1,89 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.google.protobuf' version '0.9.4'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+group = 'swimming'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'org.example.GrpcStartClient'
+}
+
+dependencies {
+    implementation project(':ChatService')
+    implementation 'org.openjfx:javafx-controls:23.0.1'
+    implementation 'org.openjfx:javafx-fxml:23.0.1'
+    implementation 'org.openjfx:javafx-base:23.0.1'
+    implementation 'org.openjfx:javafx-graphics:23.0.1'
+
+    runtimeOnly 'org.openjfx:javafx-controls:23.0.1:win'
+    runtimeOnly 'org.openjfx:javafx-fxml:23.0.1:win'
+    runtimeOnly 'org.openjfx:javafx-base:23.0.1:win'
+    runtimeOnly 'org.openjfx:javafx-graphics:23.0.1:win'
+    // gRPC + Protobuf
+    implementation 'io.grpc:grpc-netty-shaded:1.61.0'
+    implementation 'io.grpc:grpc-protobuf:1.61.0'
+    implementation 'io.grpc:grpc-stub:1.61.0'
+    implementation 'com.google.protobuf:protobuf-java:3.25.3'
+    implementation 'javax.annotation:javax.annotation-api:1.3.2'
+
+    // Logging (optional)
+    implementation 'org.apache.logging.log4j:log4j-core:2.23.1'
+    implementation 'org.apache.logging.log4j:log4j-api:2.23.1'
+
+    // Testing
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+javafx {
+    version = "23.0.1"
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+protobuf {
+    protoc {
+        artifact = 'com.google.protobuf:protoc:3.25.2'
+    }
+    plugins {
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.61.0'
+        }
+    }
+    generateProtoTasks {
+        all().each { task ->
+            task.plugins {
+                grpc {}
+            }
+        }
+    }
+}
+
+sourceSets {
+    main {
+        proto {
+            srcDir 'src/main/proto'
+        }
+        java {
+            srcDirs += [
+                    'build/generated/source/proto/main/java',
+                    'build/generated/source/proto/main/grpc'
+            ]
+        }
+    }
+}
+
+tasks.withType(Copy).configureEach {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+test {
+    useJUnitPlatform()
+}
